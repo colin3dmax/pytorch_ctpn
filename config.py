@@ -7,12 +7,12 @@
 import os
 
 # base_dir = 'path to dataset base dir'
-base_dir = './images'
-img_dir = os.path.join(base_dir, 'VOC2007_text_detection/JPEGImages')
-xml_dir = os.path.join(base_dir, 'VOC2007_text_detection/Annotations')
+base_dir = '/content/VOCtrainval_06-Nov-2007/VOCdevkit'
+img_dir = os.path.join(base_dir, 'VOC2007/JPEGImages')
+xml_dir = os.path.join(base_dir, 'VOC2007/Annotations')
 
-train_txt_file = os.path.join(base_dir, r'VOC2007_text_detection/ImageSets/Main/train.txt')
-val_txt_file = os.path.join(base_dir, r'VOC2007_text_detection/ImageSets/Main/val.txt')
+train_txt_file = os.path.join(base_dir, r'VOC2007/ImageSets/Main/train.txt')
+val_txt_file = os.path.join(base_dir, r'VOC2007/ImageSets/Main/val.txt')
 
 
 anchor_scale = 16
